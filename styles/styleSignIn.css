@@ -1,0 +1,120 @@
+body {
+    overflow: hidden;
+    background: linear-gradient(
+        15deg,
+        rgb(152, 58, 224),
+        rgb(84, 143, 221)
+    );
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    left: 50px;
+    padding-left: 130px;
+    padding-right: 160px;
+}
+.sign-in {
+    background-color: white;
+    width:40%;
+    height:69vh;
+    padding-left: 40px;
+    box-shadow: 1px 5px 12px 7px rgba(0, 0, 0, 0.5);
+}
+.login {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    font-size: 24px;
+    padding-top: 50px;
+    color: #000000ea;
+}
+.purple-line {
+    border-bottom: 4px solid rgb(152, 58, 224);
+}
+#login {
+    background-color: rgb(152, 58, 224);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    width: 85%;
+}   
+.account {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    text-decoration: none;
+}
+.account a span {
+    color: rgb(110, 38, 165);
+    margin-left: 6px;
+    text-decoration: none;
+}
+.image {
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+    height: 69vh;
+}
+.image img {
+    width: 70%;
+    height: 69vh;
+    margin-left: -20px;
+    opacity: 0.6;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.image h3 {
+    position: absolute; /* Set text position to absolute */
+    top: 170px; /* Adjust top position as needed */
+    left: 80px; /* Adjust left position as needed */
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.image h5 {
+    position: absolute; /* Set text position to absolute */
+    top: 220px; /* Adjust top position as needed */
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.input-group {
+    position: relative;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.input-group .icon {
+    position: absolute;
+    left: 1px;
+    transform: translateY(-10%);
+}
+
+.input-group input[type="email"],
+.input-group input[type="password"] {
+    width: 90%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.805);
+    width: 90%;
+    padding: 3px;
+    margin-bottom: 1px; 
+    box-sizing: border-box; 
+    font-size: 18px;
+    padding-left: 30px;
+    color: black;
+}
+.link a {
+    text-decoration: none;
+}

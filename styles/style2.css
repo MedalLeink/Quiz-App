@@ -1,0 +1,263 @@
+body {
+    overflow: hidden;
+    background: linear-gradient(
+        15deg,
+        rgb(152, 58, 224),
+        rgb(84, 143, 221)
+    );
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    left: 50px;
+    /* padding-left: 130px; */
+    /* padding-right: 160px; */
+}
+.sign-up {
+    background-color: white;
+    width:45%;
+    height:90vh;
+    padding-left: 40px;
+    box-shadow: 1px 5px 12px 7px rgba(0, 0, 0, 0.5);
+    margin-left: -235px;
+}
+.signup {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    font-size: 28px;
+    padding-top: 50px;
+    color: #000000ea;
+    margin-top: -20px;
+    margin-bottom: 38px;
+}
+.purple-line {
+    border-bottom: 4px solid rgb(152, 58, 224);
+}
+.image {
+    display: inline-block;
+    position: relative;
+    height: 90vh;
+    width: 50%;
+}
+.image img {
+    width: 70%;
+    height: 90vh;
+    margin-left: -20px;
+    opacity: 0.4;
+    box-shadow: 5px 10px 9px rgba(0, 0, 0, 0.5);
+}
+.image h4 {
+    position: absolute;
+    top: 210px;
+    left: 16px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.image h5 {
+    position: absolute;
+    top: 260px;
+    left: 150px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.input-group {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+  
+.input1 span {
+    margin-right: 20px;
+    /* width: 274px; */
+    padding-right: 0px;
+  }
+  
+.input1 input[type="text"], 
+.input1 input[type="email"] {
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(128, 128, 128, 0.805);
+    width: 89%;
+    padding: 5px;
+    margin-bottom: 1px;
+    box-sizing: content-box; 
+    font-size: 18px;
+    color: black;
+    border-radius: 4px;
+    margin-top: 7px;
+    padding-left: 12px;
+    margin-right: 100px;
+    margin-bottom: 12px;
+  }
+.number {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 16px;
+}
+.input-field {
+    display: inline-block;
+    margin-right: 22px;
+    width: 45%; 
+  }
+.number input[type="tel"],
+.number input[type="date"]
+{
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(128, 128, 128, 0.805);
+    width: 97%;
+    padding: 4px;
+    margin-bottom: 1px;
+    box-sizing: content-box; 
+    font-size: 18px;
+    padding-left: 30px;
+    color: black;
+    border-radius: 4px;
+    margin-top: 7px;
+    padding-left: 12px;
+    margin-right: 13px;
+    margin-bottom: 12px;
+}
+.address {
+    display: inline-block;
+    margin-right: 20px;
+    width: 93%; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.address input {
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(128, 128, 128, 0.805);
+    width: 97%;
+    padding: 5px;
+    margin-bottom: 1px;
+    box-sizing: content-box; 
+    font-size: 18px;
+    padding-left: 30px;
+    color: black;
+    border-radius: 4px;
+    margin-top: 7px;
+    padding-left: 12px;
+    margin-right: 13px;
+    margin-bottom: 12px;
+}
+
+.password-fields {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-wrap: wrap;
+    /* justify-content: space-between;  */
+}
+  
+  .password-fields span {
+    margin-right: 20px;
+    width: 274px;
+    padding-right: 20px;
+  }
+  
+  .password-fields input[type="password"] {
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(128, 128, 128, 0.805);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 1px;
+    box-sizing: content-box; 
+    font-size: 18px;
+    padding-left: 30px;
+    color: black;
+    border-radius: 4px;
+    margin-top: 7px;
+    padding-left: 12px;
+    margin-right: 13px;
+  }
+  .button {
+    background-color: rgb(152, 58, 224);
+  }
+  .gender {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+  .gender-options {
+    display: flex;
+    margin-top: -10px;
+  }
+  .gender-options label {
+    display: flex;
+    margin-right: 120px;
+  }
+  .radio-label {
+    margin-left: 6px;
+  }
+.countries {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.country,
+.postal-code {
+    height: 35px;
+    margin-right: 20px; /* Adjust the spacing between the two divs */
+    display: flex;
+    align-items: center;
+}
+
+.country select,
+.postal-code input {
+    font-size: 18px;
+    padding-left: 10px; /* Adjust as needed */
+    border-radius: 4px;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgba(128, 128, 128, 0.805);
+    width: 293px;
+    margin-top: -15px;
+}
+
+.postal-code input {
+    width: 295px; /* Adjust width as needed */
+}
+
+  .final {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  .final button {
+    padding: 12px;
+    width: 94%;
+    font-size: larger;
+    background: linear-gradient(
+        15deg,
+        rgb(152, 58, 224),
+        rgb(84, 143, 221)
+    );
+    border: 0px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  
