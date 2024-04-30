@@ -37,6 +37,10 @@ body, html {
     margin-left: -50px;
 }
 
+figcaption {
+    display: none
+}
+
 #quiz-title {
     color: white;
     display: flex;

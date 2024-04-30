@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify Email</title>
+    <link rel="stylesheet" href="styles/verify.css" />
+  </head>
+  <body>
+    <div class="verify">
+      <div class="verify-email">
+        <h1>Verify Your Email</h1>
+      </div>
+      <div class="image">
+        <div class="image-container">
+          <img src="images/verify email.webp" alt="Reset Password Image" />
+        </div>
+      </div>
+
+      <div class="instruction">
+        <p>Please Enter the 4 Digit Code Sent to <br />Your Email Address.</p>
+        <div class="input">
+          <input
+            type="number"
+            id="number"
+            maxlength="1"
+            pattern="[0-9]"
+            id="digit1"
+            tabindex="1"
+          />
+          <input
+            type="number"
+            id="number"
+            maxlength="1"
+            pattern="\d"
+            id="digit2"
+            tabindex="2"
+          />
+          <input
+            type="number"
+            id="number"
+            maxlength="1"
+            pattern="\d"
+            id="digit3"
+            tabindex="3"
+          />
+          <input
+            type="number"
+            id="number"
+            maxlength="1"
+            pattern="\d"
+            id="digit4"
+            tabindex="4"
+          />
+          <div class="anchor">
+            <p><a href="./anotherWay.html">Resend Code</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="final">
+        <button><a href="reset-password.html">Verify</a></button>
+      </div>
+    </div>
+  </body>
+</html>
