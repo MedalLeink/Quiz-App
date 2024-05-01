@@ -100,6 +100,7 @@ input#number::-webkit-outer-spin-button {
 .anchor a {
   text-decoration: none;
   margin-top: -100px;
+  color: rgb(93, 13, 155);
 }
 .anchor p {
   text-decoration: none;
@@ -108,7 +109,7 @@ input#number::-webkit-outer-spin-button {
 }
 
 .final {
-  margin-right: 200px;
+  margin-right: 230px;
   margin-top: 50px;
 }
 
@@ -126,4 +127,6 @@ input#number::-webkit-outer-spin-button {
 .final a {
   text-decoration: none;
   color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-size: 21px;
 }

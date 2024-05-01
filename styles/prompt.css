@@ -1,0 +1,89 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(15deg, rgb(152, 58, 224), rgb(84, 143, 221));
+}
+
+.verified {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: 30%;
+  height: 50vh;
+  overflow: hidden;
+  background-image: url("../images/congrats2.jpeg");
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: relative; 
+}
+
+.image img {
+  max-width: 150%;
+  max-height: 150%;
+  border-radius: 25%;
+  margin-top: 80px;
+  position: relative;
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  bottom: -59px; /* Adjust this value to control the distance of the shadow */
+  left: 0;
+  width: 101%;
+  height: 130px; /* Adjust this value to control the size of the shadow */
+  background: rgba(154, 151, 151, 0.1); /* Light shade of black with 10% opacity */
+  border-radius: 50%;
+}
+
+.instruction {
+  margin-top: 20px;
+  line-height: 23px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.instruction h2 {
+  font-size: 26px;
+  margin-top: 50px;
+  margin-top: 50px;
+}
+
+.final {
+  margin-top: 15px;
+}
+
+.final button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgb(152, 58, 224);
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+  color: white;
+}
+
+.final a {
+  text-decoration: none;
+  color: white;
+}

@@ -115,9 +115,17 @@ body {
     padding-left: 30px;
     color: black;
 }
+
+.link {
+    border-radius: 10px;
+}
+
 .link a {
     text-decoration: none;
     color: rgb(88, 9, 162);
-    
+}
 
+.link h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 21px;
 }

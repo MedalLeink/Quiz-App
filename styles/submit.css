@@ -1,0 +1,90 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(15deg, rgb(152, 58, 224), rgb(84, 143, 221));
+    /* background-color: rgb(223, 190, 248); */
+  }
+  
+  .updated {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 30%;
+    height: 85vh;
+    /* background-image: url("../images/congrats3.jpeg"); */
+    background-color: white;
+  }
+  
+  .container h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 530;
+    font-size: 30px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    line-height: 40px;
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image img {
+    max-width: 110%;
+    max-height: 110%;
+    border-radius: 25%;
+    margin-top: 15px;
+  }
+  .instruction {
+    margin-top: 20px;
+    line-height: 23px;
+    font-size: 19.5px;
+    text-align: center;
+    margin-top: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+  }
+
+  .final {
+    margin-right: 145px;
+    margin-top: 50px;
+  }
+  
+  .final button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(152, 58, 224);
+    border: none;
+    border-radius: 15px;
+    width: 250%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    margin-top: 35px;
+  }
+  
+  .final a {
+    text-decoration: none;
+    color: white;
+  }
+  
