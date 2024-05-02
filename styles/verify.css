@@ -6,14 +6,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(15deg, rgb(152, 58, 224), rgb(84, 143, 221));
-}
+  background: linear-gradient(180deg, rgb(214, 185, 235), rgb(128, 176, 239));
+  }
 
 .verify {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f0f0f0;
+  background-color: white;
   border-radius: 10px;
   width: 35%;
   height: 90vh;
@@ -115,8 +115,7 @@ input#number::-webkit-outer-spin-button {
 
 .final button {
   padding: 10px 20px;
-  font-size: 18px;
-  background-color: rgb(152, 58, 224);
+  background-color: rgb(166, 75, 235);
   border: none;
   border-radius: 15px;
   width: 350%;
@@ -128,5 +127,5 @@ input#number::-webkit-outer-spin-button {
   text-decoration: none;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  font-size: 21px;
+  font-size: 19px;
 }

@@ -6,8 +6,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(15deg, rgb(152, 58, 224), rgb(84, 143, 221));
-}
+  background: linear-gradient(180deg, rgb(214, 185, 235), rgb(128, 176, 239));
+  }
 
 .verified {
   display: flex;
